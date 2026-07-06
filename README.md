@@ -7,6 +7,7 @@
 
 ## 📸 Pratinjau Antarmuka (Dashboard)
 
+![Dashboard EcoDSS](./assets/dashboard-ecodss.png)
 
 *> Keterangan: Dasbor utama EcoDSS yang menyajikan metrik statistik sistem, status kesiapan AI, dan visualisasi grafik riwayat simulasi.*
 
@@ -152,5 +153,3 @@ Dikembangkan oleh **Muchammad Rofky Hazawwaru** sebagai proyek akhir Implementas
 [MIT License](https://www.google.com/search?q=LICENSE) - Bebas digunakan dan dimodifikasi untuk tujuan akademis maupun komersial dengan mencantumkan atribusi pengembang.
 
 ---
-
-Teks *Markdown* di atas sudah aku rancang menggunakan format *syntax highlighting* untuk blok kodenya, tabel, struktur folder, dan *badge* teknologi yang memukau. Kamu tinggal mengganti *placeholder* di dalam tanda kurung siku dan mengunggah gambar *dashboard* ke repositori tersebut agar tampilannya langsung terlihat elegan saat tautan QR Code-mu di-*scan* oleh dosen!
