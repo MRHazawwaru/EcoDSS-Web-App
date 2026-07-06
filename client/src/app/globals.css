@@ -1,0 +1,22 @@
+/* Import Tailwind v4 */
+@import "tailwindcss";
+
+/* Memberitahu Tailwind v4 untuk menggunakan mode gelap HANYA JIKA 
+  ada class 'dark' di elemen HTML (dikendalikan oleh ThemeProvider kita),
+  bukan dari settingan Windows/OS.
+*/
+@custom-variant dark (&:is(.dark *));
+
+/* Konfigurasi dasar untuk kelancaran animasi transisi tema */
+html {
+  transition: color-scheme 0.3s ease;
+}
+
+html.dark {
+  color-scheme: dark; /* Membantu scrollbar browser ikut menjadi gelap */
+}
+
+body {
+  /* Pastikan seluruh body merespon transisi warna dengan mulus */
+  @apply transition-colors duration-300; 
+}
